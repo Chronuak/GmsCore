@@ -67,4 +67,4 @@ jobs:
         with:
           name: apk-${{ matrix.target }}
           path: |
-            **/build/outputs/apk/**/*.apk
+            **/build/outputs/apk/${{ matrix.target }}/**/*.apk
